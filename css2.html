@@ -1,0 +1,197 @@
+<!-- 1.syntex 
+    p{
+    color: red;
+    font-size: 12px;
+
+}
+2.css types
+.external css
+second file to link karna hota hy
+in unter title tag 
+<link rel="stylesheet" type="text/css" href="styll.css">
+.inline css
+that tage 
+<div id="box" style="display: flex;"></div>
+.internal css
+same html file title tage key bad 
+styl tag used hotahy
+3.selceter
+selecter type
+. element selecter
+.id selcter 
+. class selster 
+4.comment
+.line comment
+.multi line comment
+5.color
+.predefined color names
+.RGB(red, green ,blue)
+color values between  0 to 255
+.black rgb(0,0,0)
+.white rgb(255,255,255)
+.red rgb(255,0,0)
+.green rgb(0,255,0)
+.blue rgb(0,0,255)
+.RGBA(red green blue Alpha)
+.alpha mean tranparent
+alpha value between 0.0 to 1.0 the best value is 0.5 not all value given
+RGBA (255,0.0,0.5)
+.HEX 6 digit
+.#rrggbb(rr red  gg green  bb blue)
+.hexadecimal value 00 to ff(0-255)
+.red: #ff0000
+.black:#000000
+.white: #ffffff
+.HSL(hue saturation lightless)
+.hue is the gree of color wheel 0-360. 0 is red ,120 is green and 240 is blue
+.saturation is the presantage value % 0% shady gray and 100% full color
+lightless is the persantage 0%black 50% neigther black nor white 100% full white
+.red hsl(0,100% 50%)
+.HSLA(hue saturation lightless Alpha)
+alpha value between 0.0 to 1.0 the best value is 0.5 not all value given
+.red hsl(0,100% 50% 0.5)
+6.Background
+.background-color
+.background-image
+.background-repeat
+.backgrount-posation
+.backgrount-size
+backgrount-attachment
+7.Border
+8. Height and wigth
+9.Padding ( gap between content and border)
+.padding-top
+.padding-bottom
+.padding-left
+.padding-right
+.padding (top  right bottom left )
+10.Margin(border other content outside)
+.margin-top
+.margin-bottom
+.margin--left
+.margin-right
+.margin (top  right bottom left )
+11.Box model
+12.Text
+.text-indent
+.text-aline
+.latter-spacing
+.word-spacing
+.white-space =pre
+.ward-wrap= word-break
+.text-shadow
+13.Links
+a:link
+a:visited
+a.hover
+a:active
+14.Fonts
+.font-size
+font-weight
+font-style
+font-vernant
+.Download fonts
+@font-face{
+    font-family:"abe";
+    src:url( address);
+}
+h1{
+    font-family:"abe";
+}
+15.Css unit
+.Absolute unit 6
+cm mm inch px  pt pc
+.Relative unit 5
+Em Rem vh vw %
+16. Css cursor
+17.BOx shadow
+18.css opacity
+.oppacity (tranparant value 0 to 1)
+19.css Filter
+20.Image sprites
+21.Css gradients (two color mix is called )
+-->
+
+
+
+<!DOCTYPE html>zaka
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css</title>
+    <style>
+        Syntex #id {
+            color: red;
+
+        }
+
+        .cl {
+            color: yellow;
+        }
+
+        p {
+            font-size: 21px;
+
+        }
+
+        body {
+            border: 4px dotted yellow;
+        }
+
+        #za {
+            margin: 12px 11px;
+
+        }
+
+        .q {
+            padding: 12px 11px 23px 4px;
+            border: 3px solid rebeccapurple;
+            text-align: center;
+        }
+
+        #text {
+            color: rgb(99, 24, 228);
+            border: 3px solid red;
+            padding: 12px;
+        }
+
+        #w {
+            font-size: 45px;
+            text-align: center;
+            text-shadow: 3px 12px 5px red;
+        }
+
+        .r {
+            border: 2px solid red;
+            margin: 100px 120px;
+            width: 509px;
+            padding: 12px 23px;
+            background-color: greenyellow;
+            box-shadow: 23px 34px 12px rebeccapurple ,-23px 34px 12px rgb(25, 190, 155);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Heading</h1>
+    <p class="cl">paragraph1</p>
+    <p id="id">paragraph2</p>
+    <p>paragraph3</p>
+    <p>paragraph4</p>
+    <p>paragraph5</p>
+    <div class="q" id="za">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni hic sit voluptates!</div>
+    <div class="q" id="za">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni hic sit voluptates!</div>
+    <div class="q" id="za">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni hic sit voluptates!</div>
+    <div id="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, fugit? Placeat deleniti fugiat eaque
+        facere praesentium assumenda a, soluta voluptas, omnis id quisquam blanditiis nihil. Necessitatibus hic nostrum
+        rem quos.</div>
+    <div id="w">zakaullah</div>
+
+
+
+    <div class="r">zaka ullah</div>
+</body>
+
+</html>
